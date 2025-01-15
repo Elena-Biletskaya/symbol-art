@@ -4,7 +4,7 @@ body {
     max-width: 767px;
     margin: 0.5em;
     padding: 0;
-    font-size: 10px;
+    font-size: 14px;
     /* font-family: Roboto; */
     font-family: Montserrat, Helvetica, serif;
     /* font-optical-sizing: auto;
@@ -23,8 +23,6 @@ header {
 }
 ul {
     display: block;
-    list-style-type: disc;
-    
     margin-block-start: 1%;
     margin-block-end: 1%;
     margin-inline-start: 1%;
@@ -36,18 +34,22 @@ ul {
 li {
     padding-top: 2.5%;
 }
+h3 {
+    padding-top: 0;
+    margin-top: 0;
+}
 .text {
     display: flex;
     margin: 0.5% 0;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 .text1 {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-top: 0.5%;
     padding-top: 0.5%;
 }
 .text2 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 }
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -82,7 +84,12 @@ li {
 .photo {
     width: 40%;
     height: auto;
-}
+    border-radius: 5%;
+    /* padding: 1%; */
+    border: 2px double #9fabcd;
+    /* background-position: center;
+    box-shadow: gainsboro; */
+    }
 .kurs {
     display: flex;
     justify-content: center;
@@ -99,7 +106,7 @@ li {
 }
 .dekor {
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 5vw;
     color: goldenrod;
     /* text-shadow: rgb(2, 2, 37); */
 }
@@ -108,17 +115,14 @@ li {
     color: rgb(30, 30, 120);
     padding: 0.5% 1%;
     border-color: var(--accent-color);
-    border-radius: 4px;
-    /* font-weight: var(--big-font); */
-    font-size: 2.5vw;
-    /* font-style: oblique; */
+    border-radius: 5%;
+    font-weight: 600;
+    font-size: 3vw;
+    font-family: "Montserrat";
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     cursor: pointer;
 }
-/* .form-button {
-    height: inherit;
-} */
 .price {
     display: flex;
     justify-content: center;
@@ -128,15 +132,12 @@ li {
 }
 .center {
     text-align: center;
-    font: bold;
+    font-weight: bold;
     text-transform: uppercase;
     margin-block-end: 0em;
     /* margin: 3.5% 0 1% 0; */
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: goldenrod;
     /* padding-top: 3.5%;
     padding-bottom: 2%; */
 }
-/* .non-li {
-    list-style-type: none;
-} */
